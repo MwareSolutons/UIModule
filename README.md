@@ -59,3 +59,46 @@ Module methods
 * createPlayer
 * addEventListener
 * open
+
+### module.createZone
+
+			roomService.createZone({
+				/*
+				 * @option selector
+				 * Defines the class name or ID of the zone container
+				 */
+				selector: '.rs-fruits',
+				
+				/*
+				 * @option width
+				 * Defines the zone's width in pixels or percentage
+				 */
+				width: '200px',
+				
+				/*
+				 * @option height
+				 * Defines the zone's height in pixels or percentage
+				 */
+				height: '200px',
+				
+				/*
+				 * @option type
+				 * Defines the zone's type, horizontal or vertical
+				 */
+				type: 'vertical',
+				
+				/*
+				 * @option selection
+				 * Defines the item selection type, background or border
+				 */
+				selection: 'background',
+				
+				/*
+				 * @option item
+				 * Defines the size of items in the zone, pixels or percentage
+				 */
+				item: {
+					width: '100%',
+					height: '45px'
+				}
+			});
