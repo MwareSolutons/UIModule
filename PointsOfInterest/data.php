@@ -1,4 +1,9 @@
 <?php
+
+/*
+ * Generate json data
+ */
+
 $a = array(
 	array(
 		'name'			=>	'Jüdisches Museum Wien',

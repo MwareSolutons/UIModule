@@ -148,6 +148,11 @@ var roomService = new MWareModule({
 			});
 			
 			roomService.addEventListener('.other-services', 'click', function(item){
+				
+				/*
+				 * any data attributes existing on the selected item will be available
+				 * in the item object
+				 */
 				console.log(item);
 			});
 		},
