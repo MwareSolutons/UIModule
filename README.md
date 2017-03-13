@@ -1,4 +1,4 @@
-# MWareIPTVModule
+# MwareIPTVModule
 MWare Solutions IPTV User Interface Module
 
 ##Intro
