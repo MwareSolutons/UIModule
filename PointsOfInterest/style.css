@@ -1,0 +1,49 @@
+/*
+ * POI MWare Module Style Sheet
+ */
+
+h1 {
+	margin: 0px;
+	padding: 20px 40px 0px 40px;
+}
+
+p {
+	margin: 0px 40px 20px 40px;
+}
+
+.poi-holder {
+	white-space: nowrap;
+	margin-left: 40px;
+}
+	.poi-holder .left, .poi-holder .right {
+		display: inline-block;
+		vertical-align: top;
+	}
+	.poi-holder .left {
+		width: 640px;
+	}
+	.poi-holder .right {
+		width: calc(100% - 680px);
+	}
+	
+	.poi-holder .place {
+		margin: 0px 10px 10px 0px;
+	}
+	
+	.poi-detail {
+		background-color: #303030;
+		min-height: 310px;
+	}
+		.poi-detail h3 {
+			margin: 0px;
+			font-size: 24px;
+			padding: 20px 40px 0px 40px;
+		}
+		.poi-detail p {
+			margin: 0px 40px 20px 40px;
+			font-size: 16px;
+			color: #a0a0a0;
+		}
+		.poi-detail div {
+			margin: 0px 40px;
+		}

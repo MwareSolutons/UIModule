@@ -1,0 +1,38 @@
+/*
+ * Room Service MWare Module Style Sheet
+ */
+
+h1 {
+	margin: 0px;
+	padding: 20px 40px 0px 40px;
+}
+
+p {
+	margin: 0px 40px 20px 40px;
+}
+
+.room-service-holder {
+	display: inline-block;
+	vertical-align: top;
+	background-color: #303030;
+	padding: 20px;
+	margin: 0px 40px;
+}
+.room-service-holder.left {
+	width: 240px;
+}
+.room-service-holder.right {
+	width: calc(100% - 480px);
+}
+	.room-service-divider {
+		height: 20px;
+	}
+	.rs-fruits .fruit {
+		line-height: 45px;
+		padding: 0px 20px;
+	}
+	.other-services .service {
+		line-height: 45px;
+		margin-right: 10px;
+		padding: 0px 20px;
+	}
