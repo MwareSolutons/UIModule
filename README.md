@@ -39,18 +39,18 @@ Module options
 	       */
 	      events: {
 
-			/*
-			 * fires when the module is ready
-			 * this is the earliest point when zones can be created
-			 * and listeners attached
-			 */
-			onLoad: function(){},
+				/*
+				 * fires when the module is ready
+				 * this is the earliest point when zones can be created
+				 * and listeners attached
+				 */
+				onLoad: function(){},
 
-			/*
-			 * fires when the module is unloaded
-			 * this happens when a user switches to another page
-			 */
-			onUnload: function(){}
+				/*
+				 * fires when the module is unloaded
+				 * this happens when a user switches to another page
+				 */
+				onUnload: function(){}
 	      }
 
 Module methods
