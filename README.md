@@ -52,3 +52,10 @@ Module options
          */
         onUnload: function(){}
       }
+
+Module methods
+
+* createZone
+* createPlayer
+* addEventListener
+* open
